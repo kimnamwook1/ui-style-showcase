@@ -1,0 +1,7 @@
+services:
+  ui-style-showcase:
+    image: ghcr.io/kimnamwook1/ui-style-showcase:latest
+    container_name: ui-style-showcase
+    restart: unless-stopped
+    ports:
+      - "3100:3000"
