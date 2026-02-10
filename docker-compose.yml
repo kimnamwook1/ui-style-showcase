@@ -4,4 +4,4 @@ services:
     container_name: ui-style-showcase
     restart: unless-stopped
     ports:
-      - "39100:3000"
+      - "36929:3000"
