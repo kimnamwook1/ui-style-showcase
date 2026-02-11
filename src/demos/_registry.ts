@@ -39,6 +39,19 @@ const registry: Record<string, DemoImport> = {
   "data-visualization": () => import("./general/data-visualization"),
   "accessible-inclusive": () => import("./general/accessible-inclusive"),
   "high-contrast": () => import("./general/high-contrast"),
+  isometric: () => import("./general/isometric"),
+  "3d-immersive": () => import("./general/3d-immersive"),
+  monochrome: () => import("./general/monochrome"),
+  "pastel-soft": () => import("./general/pastel-soft"),
+  "bold-typography": () => import("./general/bold-typography"),
+  duotone: () => import("./general/duotone"),
+  "grained-textured": () => import("./general/grained-textured"),
+  "paper-stationery": () => import("./general/paper-stationery"),
+  "terminal-cli": () => import("./general/terminal-cli"),
+  "newspaper-editorial": () => import("./general/newspaper-editorial"),
+  "sci-fi-hud": () => import("./general/sci-fi-hud"),
+  "frosted-glass": () => import("./general/frosted-glass"),
+  "low-fi-wireframe": () => import("./general/low-fi-wireframe"),
 
   // Landing
   "hero-centric-design": () => import("./landing/hero-centric-design"),
@@ -58,6 +71,9 @@ const registry: Record<string, DemoImport> = {
   "crm-dashboard": () => import("./dashboard/crm-dashboard"),
   "financial-dashboard": () => import("./dashboard/financial-dashboard"),
   "project-management": () => import("./dashboard/project-management"),
+  "iot-dashboard": () => import("./dashboard/iot-dashboard"),
+  "social-media-dashboard": () => import("./dashboard/social-media-dashboard"),
+  "healthcare-dashboard": () => import("./dashboard/healthcare-dashboard"),
 };
 
 export async function loadDemo(slug: string): Promise<DemoModule> {

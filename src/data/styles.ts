@@ -266,7 +266,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Tech explainers", "Onboarding", "Feature pages", "Infographics"],
     tags: ["3d", "illustration", "technical", "explanatory"],
     relatedSlugs: ["flat-design", "material-design", "data-visualization"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "3d-immersive",
@@ -277,7 +277,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Product showcases", "Virtual tours", "Gaming", "Interactive stories"],
     tags: ["3d", "webgl", "interactive", "immersive"],
     relatedSlugs: ["isometric", "parallax-scrolling", "micro-interactions"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "monochrome",
@@ -288,7 +288,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Photography portfolios", "Luxury brands", "Editorial", "Minimalist blogs"],
     tags: ["single-color", "elegant", "restrained", "sophisticated"],
     relatedSlugs: ["minimalism", "dark-mode-oled", "high-contrast"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "pastel-soft",
@@ -299,7 +299,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Baby products", "Wellness apps", "Social apps", "Feminine brands"],
     tags: ["soft", "warm", "friendly", "light"],
     relatedSlugs: ["claymorphism", "organic-biomorphic", "minimalism"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "bold-typography",
@@ -310,7 +310,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Agency sites", "Event pages", "Magazine sites", "Brand statements"],
     tags: ["type-driven", "expressive", "large-text", "impactful"],
     relatedSlugs: ["brutalism", "swiss-international", "kinetic-typography"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "illustrated-hand-drawn",
@@ -464,7 +464,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Developer tools", "Beta products", "Personal sites", "Indie projects"],
     tags: ["sketch", "raw", "authentic", "simple"],
     relatedSlugs: ["brutalism", "illustrated-hand-drawn", "terminal-cli"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "duotone",
@@ -475,7 +475,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Music platforms", "Marketing sites", "Photo galleries", "Brand campaigns"],
     tags: ["two-color", "bold", "artistic", "unified"],
     relatedSlugs: ["monochrome", "gradient-mesh", "high-contrast"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "grained-textured",
@@ -486,7 +486,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Photography", "Artisan brands", "Vintage themes", "Premium products"],
     tags: ["texture", "noise", "tactile", "warm"],
     relatedSlugs: ["retro-vintage", "paper-stationery", "organic-biomorphic"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "paper-stationery",
@@ -497,7 +497,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Personal blogs", "To-do apps", "Wedding invites", "Journaling apps"],
     tags: ["paper", "stationery", "warm", "personal"],
     relatedSlugs: ["skeuomorphism", "illustrated-hand-drawn", "grained-textured"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "terminal-cli",
@@ -508,7 +508,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Developer tools", "Tech portfolios", "Hacker themes", "System monitors"],
     tags: ["monospace", "hacker", "technical", "dark"],
     relatedSlugs: ["dark-mode-oled", "pixel-art", "sci-fi-hud"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "newspaper-editorial",
@@ -519,7 +519,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["News sites", "Blogs", "Magazines", "Long-form content"],
     tags: ["editorial", "columns", "serif", "content-first"],
     relatedSlugs: ["swiss-international", "bold-typography", "minimalism"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "sci-fi-hud",
@@ -530,7 +530,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Gaming UIs", "Tech demos", "Space-themed", "AR/VR interfaces"],
     tags: ["futuristic", "sci-fi", "technical", "animated"],
     relatedSlugs: ["cyberpunk", "neon-glow", "terminal-cli"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "frosted-glass",
@@ -541,7 +541,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["OS-like UIs", "Navigation panels", "Notification centers", "Settings"],
     tags: ["blur", "opaque", "system-ui", "premium"],
     relatedSlugs: ["glassmorphism", "neumorphism", "minimalism"],
-    implemented: false,
+    implemented: true,
   },
 
   // ═══════════════════════════════════════════
@@ -725,7 +725,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Smart home", "Industrial IoT", "Fleet management", "Environmental monitoring"],
     tags: ["iot", "sensors", "devices", "monitoring"],
     relatedSlugs: ["realtime-monitor", "sci-fi-hud", "data-visualization"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "social-media-dashboard",
@@ -736,7 +736,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Social media managers", "Marketing teams", "Influencers", "Agencies"],
     tags: ["social", "engagement", "content", "scheduling"],
     relatedSlugs: ["analytics-dashboard", "crm-dashboard", "executive-dashboard"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "healthcare-dashboard",
@@ -747,7 +747,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Hospital systems", "Telemedicine", "Health monitoring", "Medical research"],
     tags: ["health", "medical", "patients", "clinical"],
     relatedSlugs: ["realtime-monitor", "analytics-dashboard", "accessible-inclusive"],
-    implemented: false,
+    implemented: true,
   },
 ];
 
