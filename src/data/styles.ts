@@ -90,7 +90,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Corporate sites", "Portfolios", "Blogs", "SaaS landing pages"],
     tags: ["clean", "whitespace", "simple", "elegant"],
     relatedSlugs: ["flat-design", "swiss-international", "monochrome"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "flat-design",
@@ -101,7 +101,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Mobile apps", "Icons", "Infographics", "System UIs"],
     tags: ["2d", "clean", "colorful", "simple"],
     relatedSlugs: ["minimalism", "material-design", "monochrome"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "material-design",
@@ -112,7 +112,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Android apps", "Web apps", "Enterprise tools", "Google ecosystem"],
     tags: ["google", "elevation", "motion", "systematic"],
     relatedSlugs: ["flat-design", "minimalism", "card-based"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "skeuomorphism",
@@ -123,7 +123,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Music apps", "Note-taking apps", "Game UIs", "Luxury brands"],
     tags: ["realistic", "textured", "3d", "classic"],
     relatedSlugs: ["neumorphism", "claymorphism", "retro-vintage"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "claymorphism",
@@ -134,7 +134,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Children's apps", "Onboarding flows", "Game UIs", "Friendly products"],
     tags: ["3d", "soft", "playful", "rounded"],
     relatedSlugs: ["neumorphism", "skeuomorphism", "pastel-soft"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "aurora-ui",
@@ -145,7 +145,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Landing pages", "Creative portfolios", "Music apps", "Ambient displays"],
     tags: ["gradient", "animated", "atmospheric", "colorful"],
     relatedSlugs: ["gradient-mesh", "glassmorphism", "neon-glow"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "gradient-mesh",
@@ -156,7 +156,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Backgrounds", "Hero sections", "Brand visuals", "Abstract art"],
     tags: ["gradient", "colorful", "organic", "modern"],
     relatedSlugs: ["aurora-ui", "glassmorphism", "duotone"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "neon-glow",
@@ -167,7 +167,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Nightlife venues", "Gaming sites", "Music platforms", "Cyberpunk themes"],
     tags: ["glow", "dark", "futuristic", "vibrant"],
     relatedSlugs: ["cyberpunk", "dark-mode-oled", "vaporwave"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "retro-vintage",
@@ -178,7 +178,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Restaurants", "Craft brands", "Wedding sites", "Heritage brands"],
     tags: ["classic", "nostalgic", "textured", "warm"],
     relatedSlugs: ["art-deco", "newspaper-editorial", "skeuomorphism"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "memphis-design",
@@ -189,7 +189,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Creative agencies", "Youth brands", "Events", "Social media"],
     tags: ["geometric", "colorful", "playful", "80s"],
     relatedSlugs: ["brutalism", "bold-typography", "y2k-aesthetic"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "art-deco",
@@ -200,7 +200,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Luxury brands", "Hotels", "Jewelry", "High-end events"],
     tags: ["luxury", "geometric", "gold", "elegant"],
     relatedSlugs: ["retro-vintage", "monochrome", "bold-typography"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "swiss-international",
@@ -211,7 +211,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Corporate sites", "Publications", "Museums", "Government sites"],
     tags: ["grid", "typography", "clean", "systematic"],
     relatedSlugs: ["minimalism", "bauhaus", "bold-typography"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "bauhaus",
@@ -222,7 +222,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Design studios", "Architecture firms", "Art galleries", "Education"],
     tags: ["geometric", "primary-colors", "functional", "classic"],
     relatedSlugs: ["swiss-international", "minimalism", "geometric-patterns"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "vaporwave",
@@ -233,7 +233,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Music platforms", "Art projects", "Experimental sites", "Merch stores"],
     tags: ["aesthetic", "retrowave", "pink", "surreal"],
     relatedSlugs: ["y2k-aesthetic", "neon-glow", "cyberpunk"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "cyberpunk",
@@ -244,7 +244,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Gaming sites", "Tech startups", "Sci-fi projects", "Music events"],
     tags: ["futuristic", "dark", "neon", "tech"],
     relatedSlugs: ["neon-glow", "sci-fi-hud", "dark-mode-oled"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "organic-biomorphic",
@@ -255,7 +255,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Wellness apps", "Eco brands", "Food products", "Health care"],
     tags: ["natural", "curved", "soft", "flowing"],
     relatedSlugs: ["pastel-soft", "aurora-ui", "gradient-mesh"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "isometric",
@@ -321,7 +321,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Children's sites", "Craft brands", "Personal blogs", "Educational"],
     tags: ["hand-drawn", "warm", "creative", "unique"],
     relatedSlugs: ["organic-biomorphic", "paper-stationery", "collage-mixed-media"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "collage-mixed-media",
@@ -332,7 +332,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Fashion brands", "Art sites", "Magazines", "Cultural events"],
     tags: ["mixed", "creative", "editorial", "layered"],
     relatedSlugs: ["brutalism", "memphis-design", "asymmetric-layout"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "geometric-patterns",
@@ -343,7 +343,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Tech companies", "Architecture", "Event branding", "Textiles"],
     tags: ["pattern", "structured", "repetitive", "mathematical"],
     relatedSlugs: ["bauhaus", "art-deco", "swiss-international"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "asymmetric-layout",
@@ -354,7 +354,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Creative agencies", "Portfolios", "Fashion", "Art exhibitions"],
     tags: ["dynamic", "creative", "unconventional", "editorial"],
     relatedSlugs: ["brutalism", "collage-mixed-media", "split-screen"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "card-based",
@@ -365,7 +365,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Social feeds", "E-commerce", "News sites", "Project management"],
     tags: ["modular", "organized", "responsive", "scannable"],
     relatedSlugs: ["bento-box-grid", "material-design", "flat-design"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "parallax-scrolling",
@@ -376,7 +376,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Landing pages", "Brand stories", "Product launches", "Interactive narratives"],
     tags: ["scroll", "depth", "immersive", "storytelling"],
     relatedSlugs: ["3d-immersive", "micro-interactions", "storytelling-scroll"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "split-screen",
@@ -387,7 +387,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Product comparisons", "Before/After", "Dual audiences", "Fashion lookbooks"],
     tags: ["divided", "contrast", "dual", "balanced"],
     relatedSlugs: ["asymmetric-layout", "bento-box-grid", "comparison-pricing"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "fullscreen-video",
@@ -398,7 +398,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Brand sites", "Hotels/Travel", "Film/Media", "Event promotions"],
     tags: ["video", "immersive", "cinematic", "impactful"],
     relatedSlugs: ["video-background", "hero-centric-design", "parallax-scrolling"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "micro-interactions",
@@ -409,7 +409,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["SaaS products", "Mobile apps", "Form UIs", "Interactive dashboards"],
     tags: ["animation", "feedback", "detail", "polish"],
     relatedSlugs: ["material-design", "kinetic-typography", "3d-immersive"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "kinetic-typography",
@@ -420,7 +420,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Landing pages", "Presentations", "Music videos", "Storytelling"],
     tags: ["animated-text", "dynamic", "expressive", "engaging"],
     relatedSlugs: ["bold-typography", "micro-interactions", "parallax-scrolling"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "data-visualization",
@@ -431,7 +431,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Analytics dashboards", "Reports", "Scientific sites", "Financial tools"],
     tags: ["charts", "data", "informative", "analytical"],
     relatedSlugs: ["executive-dashboard", "analytics-dashboard", "isometric"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "accessible-inclusive",
@@ -442,7 +442,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Government sites", "Healthcare", "Education", "Public services"],
     tags: ["a11y", "wcag", "inclusive", "universal"],
     relatedSlugs: ["high-contrast", "minimalism", "flat-design"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "high-contrast",
@@ -453,7 +453,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Accessibility-first sites", "Text-heavy content", "Legal/Official", "Signage"],
     tags: ["contrast", "readable", "bold", "accessible"],
     relatedSlugs: ["brutalism", "monochrome", "accessible-inclusive"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "low-fi-wireframe",
@@ -578,7 +578,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Brand stories", "Annual reports", "Case studies", "Non-profits"],
     tags: ["narrative", "scroll", "sequential", "engaging"],
     relatedSlugs: ["parallax-scrolling", "hero-centric-design", "kinetic-typography"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "product-showcase",
@@ -589,7 +589,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["E-commerce", "Tech hardware", "Fashion items", "Physical products"],
     tags: ["product", "visual", "features", "showcase"],
     relatedSlugs: ["hero-centric-design", "bento-box-grid", "3d-immersive"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "social-proof-heavy",
@@ -600,7 +600,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["B2B SaaS", "Service businesses", "Online courses", "Marketplaces"],
     tags: ["testimonials", "trust", "reviews", "conversion"],
     relatedSlugs: ["minimal-direct", "hero-centric-design", "comparison-pricing"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "interactive-animated",
@@ -611,7 +611,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Creative agencies", "Tech products", "Portfolio sites", "Awards entries"],
     tags: ["animated", "interactive", "engaging", "creative"],
     relatedSlugs: ["micro-interactions", "parallax-scrolling", "3d-immersive"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "video-background",
@@ -622,7 +622,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Travel sites", "Real estate", "Restaurants", "Lifestyle brands"],
     tags: ["video", "atmospheric", "cinematic", "immersive"],
     relatedSlugs: ["fullscreen-video", "hero-centric-design", "storytelling-scroll"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "comparison-pricing",
@@ -633,7 +633,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["SaaS pricing", "Subscription services", "Insurance", "Phone plans"],
     tags: ["pricing", "comparison", "tables", "decision"],
     relatedSlugs: ["minimal-direct", "social-proof-heavy", "card-based"],
-    implemented: false,
+    implemented: true,
   },
 
   // ═══════════════════════════════════════════
@@ -659,7 +659,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Marketing analytics", "Web analytics", "Sales reports", "Data teams"],
     tags: ["analytics", "charts", "filters", "data-driven"],
     relatedSlugs: ["executive-dashboard", "data-visualization", "realtime-monitor"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "realtime-monitor",
@@ -670,7 +670,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Server monitoring", "IoT dashboards", "Trading platforms", "Operations centers"],
     tags: ["realtime", "live", "monitoring", "alerts"],
     relatedSlugs: ["iot-dashboard", "executive-dashboard", "sci-fi-hud"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "admin-panel",
@@ -681,7 +681,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["CMS backends", "User management", "Content moderation", "System settings"],
     tags: ["admin", "crud", "tables", "management"],
     relatedSlugs: ["crm-dashboard", "project-management", "executive-dashboard"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "crm-dashboard",
@@ -692,7 +692,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Sales teams", "Customer success", "Lead management", "Account management"],
     tags: ["crm", "pipeline", "contacts", "sales"],
     relatedSlugs: ["admin-panel", "analytics-dashboard", "project-management"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "financial-dashboard",
@@ -703,7 +703,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Fintech apps", "Banking", "Investment platforms", "Accounting tools"],
     tags: ["finance", "money", "charts", "professional"],
     relatedSlugs: ["executive-dashboard", "analytics-dashboard", "realtime-monitor"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "project-management",
@@ -714,7 +714,7 @@ export const styles: StyleMeta[] = [
     bestFor: ["Team collaboration", "Agile tools", "Task tracking", "Sprint planning"],
     tags: ["kanban", "gantt", "tasks", "collaboration"],
     relatedSlugs: ["admin-panel", "crm-dashboard", "card-based"],
-    implemented: false,
+    implemented: true,
   },
   {
     slug: "iot-dashboard",
